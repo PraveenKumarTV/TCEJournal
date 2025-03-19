@@ -18,7 +18,7 @@ body {
     padding-right: 20px;
     position: relative;
     z-index: 9;
-    font-family: "Font1";
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     text-align: right;
 }
@@ -139,7 +139,7 @@ body {
     text-align: center;
     color: #4E2A84;
     background-color: white;
-    font-family: 'Playfair Display', serif;
+    font-family:  'Poppins', sans-serif;
     font-weight: 700;
     margin: 60px;
     font-size: 2.5rem;
@@ -182,7 +182,7 @@ body {
   }
   
   .card-title {
-    font-family: 'Playfair Display', serif;
+    font-family:  'Poppins', sans-serif;
     font-weight: 700;
     color: #4E2A84;
     font-size: 2rem;
@@ -213,8 +213,8 @@ body {
     text-align:center;
   }
   .editor-role {
-    font-size: 1.6rem;
-    color: #7f7f7f;
+    font-size: 1.7rem;
+    color: #333;
     text-align: center;
   }
   .icon {
@@ -227,10 +227,7 @@ body {
     color: #4E2A84;
     font-weight: 600;
   }
-  .editor-role, .editor-description {
-    color: #333;
-    font-size: 1rem;
-  }
+  
   .list-group-item {
     background-color: transparent;
     border: none;
@@ -253,7 +250,7 @@ body {
   }
   .policy-list li::before {
     content: '\f00c';
-    font-family: 'FontAwesome';
+    font-family:  'Poppins', sans-serif;
     position: absolute;
     left: 0;
     color: #4E2A84;
@@ -337,7 +334,7 @@ body {
   }
   .recent-updates h3 {
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family:  'Poppins', sans-serif;
     font-weight: 700;
     font-size: 2rem;
     color: #4E2A84;
