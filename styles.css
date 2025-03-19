@@ -22,14 +22,35 @@ body {
   font-size: 16px;
   text-align: right;
 }
-.marq{
-  padding-top:5px;
-  padding-bottom:5px;
-  background-color: white;
-  color:red;
-  direction: left;
-  font-size:larger
+.marquee-container{
+  display:flex;
+  align-items: left;
+  background-color: lightgray;
+  color:red
 }
+.marq-tag{
+  background-color: #160504;
+  color: lightgray;
+  padding-right: 2px;
+}
+
+.marq-tag p {
+  position: relative;
+  margin: 0;
+  padding-left: 20px; /* Space for the triangle */
+}
+
+.marq-tag p::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10px; /* Position the triangle to the left */
+  transform: translateY(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #160504 transparent transparent; /* Triangle pointing right */
+}
+
 
 .announcements__text {
   font: 16px/40px "Lato-Bold";
